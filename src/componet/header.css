@@ -1,0 +1,28 @@
+
+/* --------------------------------------------------  header boostarp =========================*/
+
+.box1 {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+}
+.sticky
+{
+    position:  static;
+    top: 0px;
+    z-index: 3;
+}
+.main-menu li .white
+{
+    text-decoration: none;
+    color: white !important;
+    transition: 0.3s all;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.main-menu li:hover > a
+{
+    transform: scale(1.04);
+    color: orange !important;
+    background-size:contain ;
+}

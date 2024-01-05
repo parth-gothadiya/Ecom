@@ -1,0 +1,10 @@
+.main-menu li:hover > a
+{
+    color: orange;
+    transform: scale(1.02);
+}
+.main-menu li a
+{
+    transition: 0.4s;
+    color: rgb(28, 27, 27) !important;
+}
